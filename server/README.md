@@ -1,4 +1,4 @@
-# TODO Server
+# TODONT Server
 
 The app server containing the REST endpoints used to interact with the client
 
