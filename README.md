@@ -37,6 +37,8 @@ A fullstack app for learning both FE and BE development
 `.github`
 - contains github actions that perform CI/CD
 
+`docker-compose.yml` file to run the app
+
 ## Docker & Docker Compose
 
 Both `todo-app` and `todo-server` will contain their own `Dockerfiles` to run independently
