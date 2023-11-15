@@ -23,7 +23,7 @@ A fullstack app for learning both FE and BE development
 - folder containing the server.
 
 `docs`
-- folder containing the documentation like Swagger/OpenAPI and [Mermaidjs](https://mermaid.js.org/)
+- folder containing the documentation like Swagger/OpenAPI and [MermaidJs](https://mermaid.js.org/)
 
 `.github`
 - contains github actions that perform CI/CD
