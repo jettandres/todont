@@ -1,6 +1,6 @@
 # TODO Server
 
-The app server containing the REST endpoints
+The app server containing the REST endpoints used to interact with the client
 
 Features:
 - Standard library only aside from database drivers for PSQL

@@ -1,22 +1,29 @@
-# TODO App
+# TODONT 🚫
 A fullstack app for learning both FE and BE development
 
 ## Todo:
 - [ ] Code backend server
 - [ ] Code frontend app
 - [ ] Setup docker-compose
-- [ ] Fill up swagger docs
+- [ ] Fill up OpenAPI docs
+- [ ] Setup e2e with Playwright
 
-## Folders
+## Tech Stack
+- htmx
+- Go
+- PostgreSQL
+- Github Actions for CI/CD
 
-`todo-app`
-- folder containing the front-end of the app. I'm planning to use htmx to learn on the go
+## File Tree
 
-`todo-server`
+`app`
+- folder containing the front-end components of the app. I'm planning to use htmx to learn on the go
+
+`server`
 - folder containing the server.
 
-`swagger`
-- folder containing the swagger documentation. will use this also as practice for documenting my endpoints better
+`docs`
+- folder containing the documentation like Swagger/OpenAPI and [Mermaidjs](https://mermaid.js.org/)
 
 `.github`
 - contains github actions that perform CI/CD
