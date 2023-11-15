@@ -38,7 +38,7 @@ Applicable across all endpoints
 
 ### `PATCH /todonts/{id}`
 - updates a resource with only its specific fields specified.
-- used `PATCH` over `PUT` for updating since it's not indempotent. [learn more](https://stackoverflow.com/a/34400076)
+- used `PATCH` over `PUT` or `POST` for updating since it's not indempotent. [learn more](https://stackoverflow.com/a/34400076)
 
 ### `DELETE /todonts/{id}`
 - deletes a specific resource
