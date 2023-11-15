@@ -9,10 +9,19 @@ A fullstack app for learning both FE and BE development
 - [ ] Setup e2e with Playwright
 
 ## Tech Stack
-- htmx
-- Go
-- PostgreSQL
-- Github Actions for CI/CD
+- App
+  - htmx
+  - Go
+  - PostgreSQL
+- CI/CD
+  - Github Actions for CI/CD
+  - Docker & Docker Compose
+- Documentation
+  - OpenAPI
+  - MermaidJs
+- Testing
+  - Go standard library (FE/BE)
+  - Playwright (E2E)
 
 ## File Tree
 
