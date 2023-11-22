@@ -180,3 +180,70 @@ Endpoints
 
 // TODO: Accept: text/html
 ```
+
+## Validations and Errors
+
+### Fail
+Failed responses are to return `400` status code
+
+when a request has a missing field or incorrect format
+```json
+// POST /todonts
+
+// request Accept: application/json
+{
+   "content": null
+}
+
+// response
+{
+   "status": "fail",
+   "data": {
+       "content": "A content is required"
+   }
+}
+
+```
+
+when a resource is non existent
+```json
+// GET /todonts/abc
+// DELETE /todont/abc
+
+// response
+{
+   "status": "fail",
+   "data": {
+       "id": "Todont resource with id 'abc' does not exist"
+   }
+}
+```
+
+```json
+// PATCH /todonts
+
+// request
+{
+  "id": "abc",
+  "content": "take down production"
+}
+
+// response
+{
+    "status": "fail",
+    "data": {
+        "id": "Todont resource with id 'abc' does not exist"
+    }
+}
+
+```
+
+### Error
+Internal server errors are to return `500` status codes
+
+```json
+{
+    "status": "error",
+    "message": "Unable to connect to database"
+}
+```
