@@ -41,7 +41,7 @@ A fullstack app for learning both FE and BE development
 
 ## Docker & Docker Compose
 
-Both `todo-app` and `todo-server` will contain their own `Dockerfiles` to run independently
+Both `app` and `server` will contain their own `Dockerfiles` to run independently
 
 A `docker-compose.yaml` file will be present in root which also initializes a `PostreSQL` database
 
